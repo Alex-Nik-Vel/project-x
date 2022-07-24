@@ -169,19 +169,18 @@
   }
 
   .button-foodpoints__icon {
-    // position: absolute;
-    width: 15px;
-    height: 30px;
-    // right: 8%;
+    display: flex;
+    width: 8px;
+    height: 16px;
     fill: currentColor;
   }
-  .button-foodpoints__icon2 {
-    position: absolute;
-    width: 15px;
-    height: 30px;
-    right: 12%;
-    fill: currentColor;
-  }
+  // .button-foodpoints__icon2 {
+  //   position: absolute;
+  //   width: 15px;
+  //   height: 30px;
+  //   right: 12%;
+  //   fill: currentColor;
+  // }
   &:hover,
   &:focus {
     color: #d41342;
